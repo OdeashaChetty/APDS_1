@@ -44,7 +44,6 @@ sonarqube:
           -Dsonar.branch.name="$SONAR_BRANCH" \
           -Dsonar.sources="."
 
-
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
 workflows:
